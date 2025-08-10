@@ -1,0 +1,236 @@
+(footprint "7M40000010"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "7M40000010-2")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "b78d1d2b-c1b1-4525-91a1-570d5d25802b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "7M40000010"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "94fdec08-c62e-48e0-bfe3-cd4ba59f6d42")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d46b1c4-e984-4123-924f-148230d91346")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa51772b-6a7e-43d4-9a23-e57e1b7bd512")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.1 1.9)
+		(end -1.1 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "805c375b-dd13-4ec0-aa30-ffee3f6c3199")
+	)
+	(fp_line
+		(start -1.1 2)
+		(end -1.1 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e155834f-c688-45ec-b532-bc2e4a8176a3")
+	)
+	(fp_arc
+		(start -1.1 1.9)
+		(mid -1.05 1.95)
+		(end -1.1 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "921a0ee2-e526-461f-af5d-1f672efafedf")
+	)
+	(fp_arc
+		(start -1.1 2)
+		(mid -1.15 1.95)
+		(end -1.1 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1fee122e-56c7-4d04-a8a1-da1f360ef532")
+	)
+	(fp_line
+		(start -2.8 -2.45)
+		(end 2.8 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "34be6309-9a33-4b80-beac-3f07c2e8f683")
+	)
+	(fp_line
+		(start -2.8 2.45)
+		(end -2.8 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f98ff67-23c8-4274-a404-145434f92a1a")
+	)
+	(fp_line
+		(start 2.8 -2.45)
+		(end 2.8 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b5ebd66e-a273-42f5-9ac6-0f698d1d72c7")
+	)
+	(fp_line
+		(start 2.8 2.45)
+		(end -2.8 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9f563ad1-3b50-4a38-b410-d2201afee8c0")
+	)
+	(fp_line
+		(start -1.6 -1.25)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "678df7e3-e670-459e-b45c-2c79515679a3")
+	)
+	(fp_line
+		(start -1.6 1.25)
+		(end -1.6 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "99a62e2a-3712-4349-97ba-b71652d2e252")
+	)
+	(fp_line
+		(start 1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "504419aa-62f9-4f84-98f9-d9590fde60c8")
+	)
+	(fp_line
+		(start 1.6 1.25)
+		(end -1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de58e08c-816a-4c29-9ce7-c3c2d599295f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7aff8c47-3c8d-4aaf-a568-91fa149b2de7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.1 0.85 90)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7fb69f8c-fd67-4bd9-9672-0f47500fcd57")
+	)
+	(pad "2" smd rect
+		(at 1.1 0.85 90)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3ddf503e-6c9a-4406-b22b-61dd4f3f3101")
+	)
+	(pad "3" smd rect
+		(at 1.1 -0.85 90)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a6135338-ef9b-44ea-9385-ed85d854904f")
+	)
+	(pad "4" smd rect
+		(at -1.1 -0.85 90)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e13f4341-43af-4999-91e7-e14cef4265bf")
+	)
+	(embedded_fonts no)
+	(model "7M40000010.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/libs/3dmodels/7M40000010.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

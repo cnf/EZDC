@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.6,
-          "width": 0.25
+          "height": 0.24,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "text_height|77660000|112800000|5519f64b-b14a-48ed-8cc3-6f76ad0ce88b|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -473,7 +478,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -493,7 +498,8 @@
       "EZCPAP"
     ],
     "pinned_symbol_libs": [
-      "Local"
+      "Local",
+      "EZCPAP"
     ]
   },
   "meta": {
@@ -693,6 +699,12 @@
           "group_by": false,
           "label": "ESP32",
           "name": "ESP32",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
           "show": false
         }
       ],
