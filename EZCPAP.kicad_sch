@@ -8542,6 +8542,24 @@
 				(hide yes)
 			)
 		)
+		(property "ESP32" ""
+			(at 99.06 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 99.06 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "394894de-c2cd-4f1f-806f-2103a97d257b")
 		)
@@ -8680,6 +8698,24 @@
 			)
 		)
 		(property "Description" "Microcontroller, Wi-Fi 802.11b/g/n, Bluetooth, 32bit"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESP32" ""
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
 			(at 240.03 66.04 0)
 			(effects
 				(font
@@ -8923,6 +8959,24 @@
 				(hide yes)
 			)
 		)
+		(property "ESP32" ""
+			(at 190.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 190.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "cb731e19-107a-4b44-9bc6-f75bcf313a49")
 		)
@@ -9021,7 +9075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "local:Exposed Pad"
+		(property "Footprint" "EZCPAP:Exposed Pad"
 			(at 267.97 78.74 0)
 			(effects
 				(font
@@ -9040,6 +9094,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 267.97 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESP32" ""
+			(at 267.97 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
 			(at 267.97 78.74 0)
 			(effects
 				(font
@@ -9239,6 +9311,24 @@
 				(hide yes)
 			)
 		)
+		(property "ESP32" ""
+			(at 40.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 40.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "19"
 			(uuid "5e6956a8-3cc0-4528-a462-a3b9b0617f4f")
 		)
@@ -9413,6 +9503,24 @@
 				(hide yes)
 			)
 		)
+		(property "ESP32" ""
+			(at 50.8 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 50.8 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "537c8cca-72c2-4755-bbb9-417bc97cef56")
 		)
@@ -9473,6 +9581,24 @@
 			)
 		)
 		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 153.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESP32" ""
+			(at 153.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
 			(at 153.67 95.25 0)
 			(effects
 				(font
@@ -9558,6 +9684,24 @@
 				(hide yes)
 			)
 		)
+		(property "ESP32" ""
+			(at 40.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 40.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0c9b31a5-7576-4403-9cbc-be7d792e341e")
 		)
@@ -9621,6 +9765,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 270.51 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESP32" ""
+			(at 270.51 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
 			(at 270.51 93.98 0)
 			(effects
 				(font
@@ -9895,6 +10057,24 @@
 				(hide yes)
 			)
 		)
+		(property "ESP32" ""
+			(at 35.56 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 35.56 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e546302c-d9df-4684-ac12-e989583d1119")
 		)
@@ -9956,6 +10136,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 195.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESP32" ""
+			(at 195.58 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 195.58 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10099,6 +10297,24 @@
 				(hide yes)
 			)
 		)
+		(property "ESP32" ""
+			(at 256.54 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 256.54 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "93e1424a-8200-4d27-8265-a13395027991")
 		)
@@ -10162,6 +10378,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 54.61 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESP32" ""
+			(at 54.61 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
 			(at 54.61 176.53 0)
 			(effects
 				(font
@@ -10298,6 +10532,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 138.43 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESP32" ""
+			(at 138.43 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
 			(at 138.43 25.4 0)
 			(effects
 				(font
@@ -10573,6 +10825,24 @@
 				(hide yes)
 			)
 		)
+		(property "ESP32" ""
+			(at 50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7395b7f7-de3a-4c38-a3bc-0e2707c68b59")
 		)
@@ -10636,6 +10906,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 34.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESP32" ""
+			(at 34.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
 			(at 34.29 63.5 0)
 			(effects
 				(font
@@ -10815,7 +11103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "local:Exposed Pad"
+		(property "Footprint" "EZCPAP:Exposed Pad"
 			(at 267.97 71.12 0)
 			(effects
 				(font
@@ -10834,6 +11122,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 267.97 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESP32" ""
+			(at 267.97 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
 			(at 267.97 71.12 0)
 			(effects
 				(font
@@ -11107,6 +11413,24 @@
 				(hide yes)
 			)
 		)
+		(property "ESP32" ""
+			(at 88.9 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 88.9 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "98e86e4b-00ad-4a7c-858e-3b69e4e60363")
 		)
@@ -11177,6 +11501,24 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 30.48 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESP32" ""
+			(at 30.48 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
 			(at 30.48 176.53 0)
 			(effects
 				(font
@@ -11397,6 +11739,24 @@
 				(hide yes)
 			)
 		)
+		(property "ESP32" ""
+			(at 43.18 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 43.18 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8f2c0078-d628-4ae7-a68e-b937028a0c32")
 		)
@@ -11586,6 +11946,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESP32" ""
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
 			(at 53.34 95.25 0)
 			(effects
 				(font
@@ -11795,6 +12173,24 @@
 				(hide yes)
 			)
 		)
+		(property "ESP32" ""
+			(at 67.31 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 67.31 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "24a37d44-4656-489f-80e7-2f893ccd3c40")
 		)
@@ -11922,6 +12318,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 58.42 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESP32" ""
+			(at 58.42 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
 			(at 58.42 176.53 0)
 			(effects
 				(font
@@ -12168,7 +12582,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local:XINGLIGHT-XL-1010RGBC-WS2812B"
+		(property "Footprint" "EZCPAP:XINGLIGHT-XL-1010RGBC-WS2812B"
 			(at 133.35 86.36 0)
 			(effects
 				(font
@@ -12189,6 +12603,24 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 132.08 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESP32" ""
+			(at 132.08 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
 			(at 132.08 78.74 0)
 			(effects
 				(font
@@ -12274,6 +12706,24 @@
 				(hide yes)
 			)
 		)
+		(property "ESP32" ""
+			(at 189.23 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 189.23 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9dc07e30-6747-4f18-9934-fe6215f38b11")
 		)
@@ -12340,6 +12790,24 @@
 				(hide yes)
 			)
 		)
+		(property "ESP32" ""
+			(at 119.38 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 119.38 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50646d88-2735-46bf-bee1-d4e21118e7d7")
 		)
@@ -12381,7 +12849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "local:Exposed Pad"
+		(property "Footprint" "EZCPAP:Exposed Pad"
 			(at 267.97 73.66 0)
 			(effects
 				(font
@@ -12400,6 +12868,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 267.97 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESP32" ""
+			(at 267.97 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
 			(at 267.97 73.66 0)
 			(effects
 				(font
@@ -12539,6 +13025,24 @@
 				(hide yes)
 			)
 		)
+		(property "ESP32" ""
+			(at 119.38 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 119.38 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A"
 			(uuid "f6b5cc66-4934-4282-bd36-ae10d0f8ba03")
 		)
@@ -12609,6 +13113,24 @@
 				(hide yes)
 			)
 		)
+		(property "ESP32" ""
+			(at 261.62 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 261.62 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6207831a-ec92-4a43-91c3-1d800e5c816e")
 		)
@@ -12669,6 +13191,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 207.01 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESP32" ""
+			(at 207.01 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
 			(at 207.01 27.94 0)
 			(effects
 				(font
@@ -13080,6 +13620,24 @@
 				(hide yes)
 			)
 		)
+		(property "ESP32" ""
+			(at 138.43 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 138.43 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7cb3bd3a-0ecb-48a0-827f-238ed2ed717f")
 		)
@@ -13257,7 +13815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "local:Exposed Pad"
+		(property "Footprint" "EZCPAP:Exposed Pad"
 			(at 267.97 76.2 0)
 			(effects
 				(font
@@ -13276,6 +13834,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 267.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESP32" ""
+			(at 267.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
 			(at 267.97 76.2 0)
 			(effects
 				(font
@@ -13349,6 +13925,24 @@
 				(hide yes)
 			)
 		)
+		(property "ESP32" ""
+			(at 63.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 63.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a5ef4c7-3220-4224-b2b0-ab2ff25c8240")
 		)
@@ -13409,6 +14003,24 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESP32" ""
+			(at 190.5 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 190.5 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13541,6 +14153,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 109.22 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESP32" ""
+			(at 109.22 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
 			(at 109.22 177.8 0)
 			(effects
 				(font
@@ -13682,6 +14312,24 @@
 				(hide yes)
 			)
 		)
+		(property "ESP32" ""
+			(at 138.43 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 138.43 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "614be7bb-5e6a-42be-b40f-08aa58270d1c")
 		)
@@ -13744,6 +14392,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 58.42 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESP32" ""
+			(at 58.42 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
 			(at 58.42 181.61 0)
 			(effects
 				(font
@@ -13821,6 +14487,24 @@
 				(hide yes)
 			)
 		)
+		(property "ESP32" ""
+			(at 195.58 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 195.58 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6db3507-1818-4d30-ad74-36ac9431146f")
 		)
@@ -13862,7 +14546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local:EZDriver"
+		(property "Footprint" "EZCPAP:EZDriver"
 			(at 138.43 190.5 0)
 			(effects
 				(font
@@ -13882,6 +14566,24 @@
 		)
 		(property "Description" "EZDriver Edge Connector"
 			(at 148.59 193.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESP32" ""
+			(at 138.43 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 138.43 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14063,6 +14765,24 @@
 				(hide yes)
 			)
 		)
+		(property "ESP32" ""
+			(at 190.5 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 190.5 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba2f566e-203b-4787-bd3b-4541e6413669")
 		)
@@ -14198,6 +14918,24 @@
 				(hide yes)
 			)
 		)
+		(property "ESP32" ""
+			(at 189.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 189.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a56c464-2cdf-46c2-8088-c8f46013b636")
 		)
@@ -14256,6 +14994,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 85.09 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESP32" ""
+			(at 85.09 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCL" ""
+			(at 85.09 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)

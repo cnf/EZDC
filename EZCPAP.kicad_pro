@@ -489,7 +489,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "EZCPAP"
+    ],
     "pinned_symbol_libs": [
       "Local"
     ]
@@ -637,7 +639,7 @@
           "group_by": false,
           "label": "JLCL",
           "name": "JLCL",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
