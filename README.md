@@ -6,6 +6,8 @@ It effectively acts like a motor driver on a 3d printer. which you can then use 
 
 !! Still in the conceptual/development phase !!
 
+[View in kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fcnf%2FEZCPAP)
+
 ## Concept render
 ![EZPCAP with heatsink](files/EZPCAP-render.png)
 ![EZCPAP](files/EZCPAP.png)
