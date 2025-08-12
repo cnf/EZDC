@@ -9,6 +9,7 @@
 		(date "2025-08-06")
 		(rev "${MY_REVISION}")
 		(company "${MY_AUTHOR}")
+		(comment 1 "${MY_URL}")
 	)
 	(lib_symbols
 		(symbol "Conn_01x01_Pin_1"
@@ -5908,12 +5909,6 @@
 		(uuid "07089080-7b77-41b0-bc3e-a1ccdffd72a1")
 	)
 	(junction
-		(at 78.74 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e6ba5a3-a9b4-4199-bed3-11fa614b5534")
-	)
-	(junction
 		(at 63.5 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6414,16 +6409,6 @@
 			(type default)
 		)
 		(uuid "671437b3-7a07-4f24-80a6-88dfdd96b67c")
-	)
-	(wire
-		(pts
-			(xy 78.74 45.72) (xy 78.74 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68011587-34c3-4c28-be46-bec04c4840c9")
 	)
 	(wire
 		(pts
@@ -7093,7 +7078,7 @@
 	)
 	(global_label "NFAULT"
 		(shape input)
-		(at 217.17 71.12 180)
+		(at 217.17 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7103,7 +7088,7 @@
 		)
 		(uuid "471a7303-a053-4825-b8c1-ff537c928d70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.4389 71.12 0)
+			(at 209.4389 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7179,28 +7164,6 @@
 			)
 		)
 	)
-	(global_label "ENABLE"
-		(shape input)
-		(at 40.64 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "5acf6533-3908-40bd-b6c9-ba6203550856")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.7659 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LS5"
 		(shape bidirectional)
 		(at 217.17 53.34 180)
@@ -7236,6 +7199,28 @@
 		(uuid "62c1bdec-51fc-4fa8-982c-0e2b534eda1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 34.51 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NSLEEP"
+		(shape output)
+		(at 217.17 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "65af99e4-52e1-48c3-b1ce-882f5f0db3fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.6751 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7311,9 +7296,9 @@
 			)
 		)
 	)
-	(global_label "ENABLE"
+	(global_label "NSLEEP"
 		(shape input)
-		(at 53.34 27.94 90)
+		(at 78.74 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7321,9 +7306,9 @@
 			)
 			(justify left)
 		)
-		(uuid "8eee3449-ce9c-4b28-8c02-2878b7ae07b9")
+		(uuid "9ae0f802-4a31-43f5-8fe7-9f7cb4e9d764")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.34 20.0659 90)
+			(at 86.2349 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7434,28 +7419,6 @@
 		(uuid "aa459d05-bac9-4be9-b1d4-2ff7fdef1e60")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 211.2304 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ENABLE"
-		(shape output)
-		(at 217.17 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "ad7cce91-e207-41e9-ac9f-e11a687e5660")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.2959 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7791,28 +7754,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ENABLE"
-		(shape input)
-		(at 58.42 27.94 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "cfdbc963-4823-4b35-a37c-8b4264d59c9f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.42 20.0659 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -9809,6 +9750,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 40.64 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f13a5f7-0ff4-47e8-be04-1a5789655d9b")
+		(property "Reference" "#PWR036"
+			(at 44.45 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 36.83 45.7199 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 40.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb1a6928-82ae-4497-ae12-6a6744f027ab")
+		)
+		(instances
+			(project "EZCPAP"
+				(path "/c590fdf7-e627-4685-92cc-5515f465e75b"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V8")
 		(at 58.42 170.18 0)
 		(unit 1)
@@ -11032,6 +11040,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 58.42 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53c06c67-8cf6-4807-bdca-42736c03381f")
+		(property "Reference" "#PWR052"
+			(at 58.42 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 58.42 22.86 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 58.42 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac20d587-8e56-4ffa-b3ab-3adb876a32c6")
+		)
+		(instances
+			(project "EZCPAP"
+				(path "/c590fdf7-e627-4685-92cc-5515f465e75b"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 245.11 20.32 0)
 		(unit 1)
@@ -11376,6 +11450,72 @@
 			(project "EZCPAP"
 				(path "/c590fdf7-e627-4685-92cc-5515f465e75b"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 53.34 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e85a32f-0bf7-46ab-9a14-281ea64a22ac")
+		(property "Reference" "#PWR051"
+			(at 53.34 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 53.34 22.86 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 53.34 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c91d0a8-a128-4990-8549-79fe0f415e91")
+		)
+		(instances
+			(project "EZCPAP"
+				(path "/c590fdf7-e627-4685-92cc-5515f465e75b"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -14905,7 +15045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+		(property "Footprint" "EZCPAP:Hole"
 			(at 148.59 121.92 0)
 			(effects
 				(font
@@ -15372,6 +15512,7 @@
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 85.09 50.8 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15380,15 +15521,15 @@
 		(fields_autoplaced yes)
 		(uuid "f0536fea-68f8-4f85-9b4e-ff94ad8cac4e")
 		(property "Reference" "C3"
-			(at 85.0963 44.45 90)
+			(at 85.0963 57.15 90)
 			(effects
 				(font
 					(size 1 1)
 				)
 			)
 		)
-		(property "Value" "0.47µF"
-			(at 85.0963 46.99 90)
+		(property "Value" "470nF"
+			(at 85.0963 54.61 90)
 			(effects
 				(font
 					(size 1 1)
