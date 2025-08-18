@@ -541,7 +541,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.15,
         "name": "GND",
-        "pcb_color": "rgb(194, 194, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
@@ -553,8 +553,11 @@
       "version": 4
     },
     "net_colors": {
+      "+3.3V": "rgb(0, 194, 0)",
       "+3V8": "rgb(0, 0, 194)",
-      "V_IO": "rgb(0, 255, 0)"
+      "GND": "rgb(128, 77, 0)",
+      "VDC": "rgb(194, 194, 0)",
+      "V_IO": "rgb(0, 194, 194)"
     },
     "netclass_assignments": null,
     "netclass_patterns": [
@@ -597,7 +600,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -639,18 +642,12 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "JLCL",
-          "name": "JLCL",
           "show": false
         },
         {
@@ -703,20 +700,44 @@
         },
         {
           "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pin",
+          "name": "Sim.Pin",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "ESP32",
           "name": "ESP32",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Description_1",
-          "name": "Description_1",
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
           "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"

@@ -8422,24 +8422,6 @@
 				(hide yes)
 			)
 		)
-		(property "ESP32" ""
-			(at 240.03 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCL" ""
-			(at 240.03 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "39"
 			(uuid "a89dd962-bf26-4865-a8b4-62573bc8e83c")
 		)
