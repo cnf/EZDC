@@ -777,6 +777,214 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Crystal_GND24_Small"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 1.27 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Crystal_GND24_Small"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_GND24_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 1.905) (xy 1.27 1.905) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.762) (xy -1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -1.905) (xy 1.27 -1.905) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 -1.524)
+					(end 0.762 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.762) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED_Small"
 			(pin_numbers
 				(hide yes)
@@ -1070,214 +1278,6 @@
 					(at 0 -2.54 90)
 					(length 0.762)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "EZCPAP:7M40000010"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 36.83 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "7M40000010"
-				(at 36.83 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "7M40000010"
-				(at 36.83 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://txccrystal.com/images/pdf/7m.pdf"
-				(at 36.83 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "40 MHz +/-10ppm Crystal 12pF 4-SMD, No Lead"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.8"
-				(at 36.83 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "TXC CORPORATION"
-				(at 36.83 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "7M40000010"
-				(at 36.83 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "717-7M40000010"
-				(at 36.83 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TXC-Corporation/7M40000010?qs=zQwgD8UkpXx%2Fq%252BE6%252BXKMiA%3D%3D"
-				(at 36.83 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 36.83 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 36.83 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "7M40000010_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 35.56 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "GND_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "CRYSTAL_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 40.64 0 180)
-					(length 5.08)
-					(name "CRYSTAL_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 40.64 -2.54 180)
-					(length 5.08)
-					(name "GND_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2426,261 +2426,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:WS2812B-2020"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 5.08 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "WS2812B-2020"
-				(at 1.27 -5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-				(at 2.54 -9.525 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RGB LED NeoPixel Nano addressable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*WS2812*-2020_PLCC4*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "WS2812B-2020_0_0"
-				(text "RGB"
-					(at 2.286 -4.191 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "WS2812B-2020_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "WS2812B-2020_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "L_Small_1"
 			(pin_numbers
 				(hide yes)
@@ -2835,6 +2580,223 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Local:IN-PI20TATPRPGPB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "IN-PI20TATPRPGPB"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Local:INPI20TATPRPGPB"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI20TAT(X)R(X)G(X)B_v1.0.pdf"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "The IN-PI20TAT(X)R(X)G(X)B is 2.0*2.0*0.65mm RGB LED with integrated IC. It is a SMD type LED which can be used in various applications."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.75"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Inolux"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "IN-PI20TATPRPGPB"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "743-IN-PI20TATPRPGPB"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Inolux/IN-PI20TATPRPGPB?qs=stqOd1AaK7%2F2J%2Fdk5PM%252BqQ%3D%3D"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "IN-PI20TATPRPGPB"
+				(at 24.13 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "null?region=nac"
+				(at 24.13 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "IN?PI20TATPRPGPB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IN-PI20TATPRPGPB_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5839,7 +5801,7 @@
 	)
 	(rectangle
 		(start 113.03 60.96)
-		(end 167.64 105.41)
+		(end 167.64 82.55)
 		(stroke
 			(width 0)
 			(type default)
@@ -6154,7 +6116,7 @@
 		(uuid "01335195-a732-43a3-bf08-e6abf516e3fa")
 	)
 	(no_connect
-		(at 139.7 78.74)
+		(at 153.67 71.12)
 		(uuid "02284d17-5db6-4e8e-a569-9c299682425e")
 	)
 	(no_connect
@@ -6647,7 +6609,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 33.02) (xy 161.29 35.56)
+			(xy 143.51 35.56) (xy 143.51 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6857,6 +6819,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 38.1) (xy 139.7 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a48c95ef-96f1-4b61-a029-0aa3e2ff7e74")
+	)
+	(wire
+		(pts
 			(xy 63.5 83.82) (xy 63.5 92.71)
 		)
 		(stroke
@@ -7037,6 +7009,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 38.1) (xy 134.62 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b93534-d2a4-4606-a81b-ec5da3c068bb")
+	)
+	(wire
+		(pts
 			(xy 87.63 50.8) (xy 78.74 50.8)
 		)
 		(stroke
@@ -7044,6 +7026,16 @@
 			(type default)
 		)
 		(uuid "f097995b-09b4-4f84-956b-9aef636b6f00")
+	)
+	(wire
+		(pts
+			(xy 130.81 35.56) (xy 130.81 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac7136d-a5df-41b0-8e06-8c1750c109e4")
 	)
 	(wire
 		(pts
@@ -7301,7 +7293,7 @@
 	)
 	(global_label "XTAL_N"
 		(shape output)
-		(at 161.29 35.56 0)
+		(at 143.51 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7311,7 +7303,7 @@
 		)
 		(uuid "22211aa3-bae6-4a74-886e-78050c56ebb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.8307 35.56 0)
+			(at 151.0507 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7433,7 +7425,7 @@
 	)
 	(global_label "XTAL_P"
 		(shape input)
-		(at 120.65 38.1 180)
+		(at 130.81 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7443,7 +7435,7 @@
 		)
 		(uuid "423ca3bb-8fa7-45e8-a894-7336ed4558be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.1569 38.1 0)
+			(at 123.3169 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7807,7 +7799,7 @@
 	)
 	(global_label "ERGEBLED"
 		(shape input)
-		(at 124.46 78.74 180)
+		(at 125.73 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7817,7 +7809,7 @@
 		)
 		(uuid "a876f475-73e2-4b5f-8e50-bd4c9cf9f075")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.5858 78.74 0)
+			(at 116.3691 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8533,7 +8525,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 43.18 0)
+		(at 130.81 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8541,7 +8533,7 @@
 		(dnp no)
 		(uuid "00d137d4-cf59-4d92-854e-0fb3d82b9c90")
 		(property "Reference" "#PWR018"
-			(at 120.65 48.26 0)
+			(at 130.81 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8550,7 +8542,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.523 46.99 0)
+			(at 130.937 26.67 0)
 			(effects
 				(font
 					(size 1 1)
@@ -8558,7 +8550,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 43.18 0)
+			(at 130.81 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8567,7 +8559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 43.18 0)
+			(at 130.81 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8576,7 +8568,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 43.18 0)
+			(at 130.81 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8676,7 +8668,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C307331"
+		(property "LCSC Part" ""
 			(at 182.88 66.04 90)
 			(effects
 				(font
@@ -9381,7 +9373,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 35.56 180)
+		(at 137.16 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9389,7 +9381,7 @@
 		(dnp no)
 		(uuid "163ceebe-3769-4f7b-9316-aaaad7a5d839")
 		(property "Reference" "#PWR030"
-			(at 120.65 30.48 0)
+			(at 137.16 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9398,7 +9390,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.777 31.75 0)
+			(at 137.287 31.75 0)
 			(effects
 				(font
 					(size 1 1)
@@ -9406,7 +9398,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 35.56 0)
+			(at 137.16 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9415,7 +9407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 35.56 0)
+			(at 137.16 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9424,7 +9416,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 35.56 0)
+			(at 137.16 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9451,8 +9443,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "17b624df-e315-4dad-8373-c865dd8f34bd")
 		(property "Reference" "J5"
 			(at 269.24 78.74 0)
@@ -9945,7 +9937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-LQSH-3012"
+		(property "Footprint" "Local_Inductor_SMD_Wurth:L_Wurth_WE-MAPI-3020"
 			(at 57.15 173.99 0)
 			(effects
 				(font
@@ -9990,7 +9982,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C36403"
+		(property "LCSC Part" ""
 			(at 57.15 173.99 90)
 			(effects
 				(font
@@ -10108,7 +10100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 40.64 68.58 0)
 			(effects
 				(font
@@ -10144,7 +10136,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C89632"
+		(property "LCSC Part" ""
 			(at 40.64 68.58 0)
 			(effects
 				(font
@@ -10251,7 +10243,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C851848"
+		(property "LCSC Part" ""
 			(at 270.51 93.98 0)
 			(effects
 				(font
@@ -10351,7 +10343,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 38.1 0)
+		(at 137.16 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10359,7 +10351,7 @@
 		(dnp no)
 		(uuid "2b3ed7c2-7734-40c9-af64-29af2e7b64a2")
 		(property "Reference" "#PWR08"
-			(at 161.29 43.18 0)
+			(at 137.16 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10368,7 +10360,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.163 41.91 0)
+			(at 137.033 44.45 0)
 			(effects
 				(font
 					(size 1 1)
@@ -10376,7 +10368,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 38.1 0)
+			(at 137.16 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10385,7 +10377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 38.1 0)
+			(at 137.16 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10394,7 +10386,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 38.1 0)
+			(at 137.16 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10629,7 +10621,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C15195"
+		(property "LCSC Part" ""
 			(at 35.56 57.15 0)
 			(effects
 				(font
@@ -10905,7 +10897,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25105"
+		(property "LCSC Part" ""
 			(at 195.58 96.52 90)
 			(effects
 				(font
@@ -11020,7 +11012,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C52923"
+		(property "LCSC Part" ""
 			(at 270.51 88.9 0)
 			(effects
 				(font
@@ -11136,7 +11128,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C307331"
+		(property "LCSC Part" ""
 			(at 240.03 22.86 0)
 			(effects
 				(font
@@ -11317,7 +11309,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1567"
+		(property "LCSC Part" ""
 			(at 60.96 176.53 0)
 			(effects
 				(font
@@ -11352,7 +11344,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 132.08 71.12 0)
+		(at 153.67 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11361,7 +11353,7 @@
 		(fields_autoplaced yes)
 		(uuid "425a4fef-4539-42d5-8174-699b02d01cc1")
 		(property "Reference" "#PWR022"
-			(at 132.08 74.93 0)
+			(at 149.86 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11370,15 +11362,16 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 132.08 66.04 0)
+			(at 157.48 73.6599 90)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 71.12 0)
+			(at 153.67 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11387,7 +11380,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 71.12 0)
+			(at 153.67 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11396,7 +11389,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 132.08 71.12 0)
+			(at 153.67 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11418,7 +11411,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 161.29 30.48 0)
+		(at 143.51 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11427,7 +11420,7 @@
 		(fields_autoplaced yes)
 		(uuid "45cf23ec-d515-4534-b01d-a4ed5a058ce3")
 		(property "Reference" "C8"
-			(at 163.83 29.2162 0)
+			(at 146.05 31.7562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11436,7 +11429,7 @@
 			)
 		)
 		(property "Value" "18pF"
-			(at 163.83 31.7562 0)
+			(at 146.05 34.2962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11445,7 +11438,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 161.29 30.48 0)
+			(at 143.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11454,7 +11447,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 30.48 0)
+			(at 143.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11463,7 +11456,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 161.29 30.48 0)
+			(at 143.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11472,7 +11465,7 @@
 			)
 		)
 		(property "ESP32" ""
-			(at 161.29 30.48 0)
+			(at 143.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11481,7 +11474,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 161.29 30.48 0)
+			(at 143.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11490,7 +11483,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 161.29 30.48 0)
+			(at 143.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11498,8 +11491,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1549"
-			(at 161.29 30.48 0)
+		(property "LCSC Part" ""
+			(at 143.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11508,7 +11501,7 @@
 			)
 		)
 		(property "Rotation Offset" ""
-			(at 161.29 30.48 0)
+			(at 143.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11808,7 +11801,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C845230"
+		(property "LCSC Part" ""
 			(at 50.8 95.25 0)
 			(effects
 				(font
@@ -11924,7 +11917,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C307331"
+		(property "LCSC Part" ""
 			(at 34.29 63.5 0)
 			(effects
 				(font
@@ -12094,8 +12087,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "52be440c-c8c4-4fbc-8cfc-e734926136fc")
 		(property "Reference" "J2"
 			(at 269.24 71.12 0)
@@ -12337,7 +12330,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C307331"
+		(property "LCSC Part" ""
 			(at 245.11 22.86 0)
 			(effects
 				(font
@@ -12846,7 +12839,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17485"
+		(property "LCSC Part" ""
 			(at 91.44 88.9 0)
 			(effects
 				(font
@@ -12953,7 +12946,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C52923"
+		(property "LCSC Part" ""
 			(at 96.52 177.8 0)
 			(effects
 				(font
@@ -13351,7 +13344,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C307331"
+		(property "LCSC Part" ""
 			(at 49.53 173.99 90)
 			(effects
 				(font
@@ -13712,7 +13705,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 27.94 180)
+		(at 143.51 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13720,7 +13713,7 @@
 		(dnp no)
 		(uuid "8219e744-5352-48cb-a6cf-b20f7e30b5df")
 		(property "Reference" "#PWR029"
-			(at 161.29 22.86 0)
+			(at 143.51 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13729,7 +13722,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.417 24.13 0)
+			(at 143.637 26.67 0)
 			(effects
 				(font
 					(size 1 1)
@@ -13737,7 +13730,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 27.94 0)
+			(at 143.51 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13746,7 +13739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 27.94 0)
+			(at 143.51 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13755,7 +13748,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 27.94 0)
+			(at 143.51 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13952,7 +13945,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7µF"
+		(property "Value" "10µF"
 			(at 76.2 177.8062 0)
 			(effects
 				(font
@@ -13961,7 +13954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 73.66 176.53 0)
 			(effects
 				(font
@@ -14024,7 +14017,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23733"
+		(property "LCSC Part" ""
 			(at 73.66 176.53 0)
 			(effects
 				(font
@@ -14195,7 +14188,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25741"
+		(property "LCSC Part" ""
 			(at 64.77 176.53 0)
 			(effects
 				(font
@@ -14609,8 +14602,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 132.08 78.74 0)
+		(lib_id "Local:IN-PI20TATPRPGPB")
+		(at 125.73 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14619,33 +14612,23 @@
 		(fields_autoplaced yes)
 		(uuid "8eb5f4c6-2ab0-4fcc-bea1-571f9e815ff2")
 		(property "Reference" "D1"
-			(at 146.05 72.3198 0)
+			(at 139.7 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
-			(at 146.05 74.8598 0)
+		(property "Value" "IN-PI20TATPRPGPB"
+			(at 139.7 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "EZCPAP:XINGLIGHT-XL-1010RGBC-WS2812B"
-			(at 133.35 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 134.62 88.265 0)
+		(property "Footprint" "Local:LED_2020"
+			(at 149.86 166.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14654,8 +14637,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 132.08 78.74 0)
+		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI20TAT(X)R(X)G(X)B_v1.0.pdf"
+			(at 149.86 266.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "The IN-PI20TAT(X)R(X)G(X)B is 2.0*2.0*0.65mm RGB LED with integrated IC. It is a SMD type LED which can be used in various applications."
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14663,35 +14656,8 @@
 				(hide yes)
 			)
 		)
-		(property "ESP32" ""
-			(at 132.08 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 132.08 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 132.08 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C965555"
-			(at 132.08 78.74 0)
+		(property "LCSC Part" ""
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14700,11 +14666,81 @@
 			)
 		)
 		(property "Rotation Offset" ""
-			(at 132.08 78.74 0)
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.75"
+			(at 149.86 466.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Inolux"
+			(at 149.86 566.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-PI20TATPRPGPB"
+			(at 149.86 666.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-PI20TATPRPGPB"
+			(at 149.86 766.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Inolux/IN-PI20TATPRPGPB?qs=stqOd1AaK7%2F2J%2Fdk5PM%252BqQ%3D%3D"
+			(at 149.86 866.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "IN-PI20TATPRPGPB"
+			(at 149.86 966.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "null?region=nac"
+			(at 149.86 1066.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -15142,8 +15178,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "a47f0432-a937-4a64-8d54-5b12497b581b")
 		(property "Reference" "J3"
 			(at 269.24 73.66 0)
@@ -15657,7 +15693,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1567"
+		(property "LCSC Part" ""
 			(at 96.52 92.71 90)
 			(effects
 				(font
@@ -15953,8 +15989,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EZCPAP:7M40000010")
-		(at 161.29 38.1 180)
+		(lib_id "Device:Crystal_GND24_Small")
+		(at 137.16 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15962,43 +15998,41 @@
 		(dnp no)
 		(uuid "bfa914fa-3563-4a92-8520-ef92ecbc306f")
 		(property "Reference" "Y1"
-			(at 126.492 31.496 0)
+			(at 137.16 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TXC 7M40000010"
-			(at 134.112 42.164 0)
+		(property "Value" "CFPX-218"
+			(at 137.414 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "EZCPAP:7M40000010"
-			(at 124.46 -56.82 0)
+		(property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm"
+			(at 137.16 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://txccrystal.com/images/pdf/7m.pdf"
-			(at 124.46 -156.82 0)
+		(property "Datasheet" "~"
+			(at 137.16 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "40 MHz +/-10ppm Crystal 12pF 4-SMD, No Lead"
-			(at 161.29 38.1 0)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+			(at 137.16 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16007,7 +16041,7 @@
 			)
 		)
 		(property "Height" "0.8"
-			(at 124.46 -356.82 0)
+			(at 100.33 -356.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16016,8 +16050,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TXC CORPORATION"
-			(at 124.46 -456.82 0)
+		(property "Manufacturer" "Wurth"
+			(at 100.33 -456.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16026,8 +16060,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PN" "7M40000010"
-			(at 124.46 -556.82 0)
+		(property "Manufacturer PN" "830108208709"
+			(at 100.33 -556.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16036,8 +16070,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C331597"
-			(at 161.29 38.1 0)
+		(property "LCSC Part" ""
+			(at 137.16 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16046,7 +16080,7 @@
 			)
 		)
 		(property "Rotation Offset" ""
-			(at 161.29 38.1 0)
+			(at 137.16 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16142,7 +16176,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 86.36 0)
+		(at 125.73 71.12 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16150,7 +16184,7 @@
 		(dnp no)
 		(uuid "c7a6f222-60fb-4510-bc49-90c75cc36302")
 		(property "Reference" "#PWR021"
-			(at 132.08 91.44 0)
+			(at 120.65 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16159,7 +16193,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 131.953 90.17 0)
+			(at 121.92 70.993 0)
 			(effects
 				(font
 					(size 1 1)
@@ -16167,7 +16201,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 86.36 0)
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16176,7 +16210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 86.36 0)
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16185,7 +16219,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 86.36 0)
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16212,8 +16246,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "c7ea7369-c910-44d2-9fd0-2ef951f50b27")
 		(property "Reference" "J4"
 			(at 269.24 76.2 0)
@@ -16490,7 +16524,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C851848"
+		(property "LCSC Part" ""
 			(at 91.44 96.52 0)
 			(effects
 				(font
@@ -16662,7 +16696,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C52923"
+		(property "LCSC Part" ""
 			(at 116.84 177.8 0)
 			(effects
 				(font
@@ -16827,16 +16861,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 120.65 40.64 0)
+		(at 130.81 33.02 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d7bad12f-a6a8-4aae-913f-78680d57eca7")
 		(property "Reference" "C7"
-			(at 127 40.6463 90)
+			(at 126.746 31.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16844,7 +16878,7 @@
 			)
 		)
 		(property "Value" "18pF"
-			(at 124.46 40.6463 90)
+			(at 127 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16852,7 +16886,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 120.65 40.64 0)
+			(at 130.81 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16861,7 +16895,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 40.64 0)
+			(at 130.81 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16870,7 +16904,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 120.65 40.64 0)
+			(at 130.81 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16879,7 +16913,7 @@
 			)
 		)
 		(property "ESP32" ""
-			(at 120.65 40.64 90)
+			(at 130.81 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16888,7 +16922,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 120.65 40.64 90)
+			(at 130.81 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16897,7 +16931,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 120.65 40.64 90)
+			(at 130.81 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16905,8 +16939,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1549"
-			(at 120.65 40.64 90)
+		(property "LCSC Part" ""
+			(at 130.81 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16915,7 +16949,7 @@
 			)
 		)
 		(property "Rotation Offset" ""
-			(at 120.65 40.64 90)
+			(at 130.81 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17020,7 +17054,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C11476"
+		(property "LCSC Part" ""
 			(at 64.77 181.61 0)
 			(effects
 				(font
@@ -17199,7 +17233,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25105"
+		(property "LCSC Part" ""
 			(at 195.58 101.6 90)
 			(effects
 				(font
@@ -17871,7 +17905,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C307331"
+		(property "LCSC Part" ""
 			(at 24.13 176.53 0)
 			(effects
 				(font
@@ -18211,7 +18245,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C47339"
+		(property "LCSC Part" ""
 			(at 90.17 50.8 90)
 			(effects
 				(font
