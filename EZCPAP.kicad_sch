@@ -12292,7 +12292,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-S2FN4R2"
+		(property "Value" "ESP32-S3FH4R2"
 			(at 242.3795 106.68 0)
 			(effects
 				(font
@@ -12301,7 +12301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm_ThermalVias"
 			(at 240.03 114.3 0)
 			(effects
 				(font
@@ -14712,8 +14712,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d6e2cd1-484e-4ebd-9892-d41994de8a2b")
 		(property "Reference" "C11"
