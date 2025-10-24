@@ -9085,7 +9085,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 120.65) (xy 191.77 120.65)
+			(xy 175.26 92.71) (xy 181.61 92.71)
 		)
 		(stroke
 			(width 0)
@@ -9325,7 +9325,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 135.89) (xy 191.77 130.81)
+			(xy 181.61 107.95) (xy 181.61 102.87)
 		)
 		(stroke
 			(width 0)
@@ -9873,6 +9873,28 @@
 			)
 		)
 	)
+	(global_label "IN1"
+		(shape output)
+		(at 179.07 135.89 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "0712a645-f512-48d8-bea2-caccef0631ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.07 140.0632 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BEMF_W"
 		(shape output)
 		(at 217.17 60.96 180)
@@ -9886,6 +9908,28 @@
 		(uuid "0bcdf945-8779-4e37-ab9a-6fbdb210ac91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 209.1779 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NSLEEP"
+		(shape output)
+		(at 214.63 135.89 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "0f189ea8-b0dc-48fa-a0f2-fea5efa42dc0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.63 143.3849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10665,6 +10709,28 @@
 			)
 		)
 	)
+	(global_label "NFAULT"
+		(shape input)
+		(at 210.82 135.89 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "6e48cd8e-3719-419e-bb01-da46904c930f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.82 143.3575 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RSENSE"
 		(shape output)
 		(at 53.34 92.71 270)
@@ -10788,6 +10854,50 @@
 		(uuid "837c8453-00d0-45bd-8f90-bd1a748ab3ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 212.3435 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RSENSE"
+		(shape output)
+		(at 190.5 135.89 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "8d8f1b94-41ee-406f-9639-3d6f0bd75004")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.5 143.4982 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BEMF_W"
+		(shape output)
+		(at 195.58 135.89 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "954c04e5-777d-479f-b9e2-f6f73671e974")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 143.8821 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11435,6 +11545,28 @@
 			)
 		)
 	)
+	(global_label "BEMF_U"
+		(shape output)
+		(at 205.74 135.89 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "d39475e7-0cd1-434e-b4b1-0afc93d25a2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.74 143.4884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LSCS"
 		(shape bidirectional)
 		(at 200.66 50.8 0)
@@ -11470,6 +11602,28 @@
 		(uuid "d8b117be-313d-4f6b-a115-7a7bdee221d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 212.3435 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BEMF_V"
+		(shape output)
+		(at 200.66 135.89 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "da93a1c2-86d7-4a83-b962-c118a725f0a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 143.3575 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11651,6 +11805,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EN1"
+		(shape output)
+		(at 185.42 135.89 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "e7e9c879-2c19-4990-9426-b80033556f53")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.42 140.5292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12032,7 +12208,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 191.77 135.89 0)
+		(at 181.61 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12040,7 +12216,7 @@
 		(dnp no)
 		(uuid "07c9a774-4f20-48f8-8f18-661e92ee4c12")
 		(property "Reference" "#PWR038"
-			(at 191.77 140.97 0)
+			(at 181.61 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12049,7 +12225,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.643 139.7 0)
+			(at 181.483 111.76 0)
 			(effects
 				(font
 					(size 1 1)
@@ -12057,7 +12233,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 135.89 0)
+			(at 181.61 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12066,7 +12242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 135.89 0)
+			(at 181.61 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12075,7 +12251,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 135.89 0)
+			(at 181.61 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12521,6 +12697,72 @@
 			(project ""
 				(path "/c590fdf7-e627-4685-92cc-5515f465e75b"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 190.5 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dcb2808-aafe-4e50-8669-5d3f4440a25a")
+		(property "Reference" "TP8"
+			(at 191.77 135.382 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RSENSE"
+			(at 190.5 131.318 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EZCPAP:TestLoop_RCUCTE _0603"
+			(at 195.58 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a594186-add2-419e-a3aa-9a640b6ed86e")
+		)
+		(instances
+			(project ""
+				(path "/c590fdf7-e627-4685-92cc-5515f465e75b"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -14066,6 +14308,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 210.82 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "316794e1-ac2a-4be8-8edc-4f75caf1a055")
+		(property "Reference" "TP4"
+			(at 212.09 135.382 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NFAULT"
+			(at 210.82 131.318 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EZCPAP:TestLoop_RCUCTE _0603"
+			(at 215.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 210.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81603c6d-74e8-48b7-a749-ea77c68dbf66")
+		)
+		(instances
+			(project "EZCPAP"
+				(path "/c590fdf7-e627-4685-92cc-5515f465e75b"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V8")
 		(at 64.77 170.18 0)
 		(unit 1)
@@ -14159,7 +14467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 35.56 57.15 0)
 			(effects
 				(font
@@ -15003,6 +15311,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 205.74 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42ef152b-565f-4460-a403-cb7501e9ed27")
+		(property "Reference" "TP5"
+			(at 207.01 135.128 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BEMF_U"
+			(at 205.74 131.318 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EZCPAP:TestLoop_RCUCTE _0603"
+			(at 210.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 205.74 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13ceb6f7-862f-4299-bc6c-3255e5f92e86")
+		)
+		(instances
+			(project "EZCPAP"
+				(path "/c590fdf7-e627-4685-92cc-5515f465e75b"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 143.51 33.02 0)
 		(unit 1)
@@ -15456,7 +15830,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 34.29 63.5 0)
 			(effects
 				(font
@@ -16050,7 +16424,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "EZCPAP:TestLoop_RCUCTE _0603"
 			(at 198.12 101.6 0)
 			(effects
 				(font
@@ -17104,6 +17478,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 179.07 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71add692-3786-452c-97da-743d054fd66a")
+		(property "Reference" "TP10"
+			(at 180.34 135.382 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IN1"
+			(at 179.07 131.318 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EZCPAP:TestLoop_RCUCTE _0603"
+			(at 184.15 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 179.07 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbc9535d-6c23-4f30-89e0-d3065968e9d8")
+		)
+		(instances
+			(project "EZCPAP"
+				(path "/c590fdf7-e627-4685-92cc-5515f465e75b"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 24.13 189.23 0)
 		(unit 1)
@@ -17293,6 +17733,72 @@
 			(project ""
 				(path "/c590fdf7-e627-4685-92cc-5515f465e75b"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 195.58 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80037a31-d426-4853-98cc-7c3df3c83238")
+		(property "Reference" "TP7"
+			(at 196.85 135.382 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BEMF_W"
+			(at 195.58 131.318 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EZCPAP:TestLoop_RCUCTE _0603"
+			(at 200.66 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 195.58 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2090f531-04ae-4fc7-9f7b-025116bd2de6")
+		)
+		(instances
+			(project "EZCPAP"
+				(path "/c590fdf7-e627-4685-92cc-5515f465e75b"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -17871,7 +18377,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "EZCPAP:TestLoop_RCUCTE _0603"
 			(at 187.96 96.52 0)
 			(effects
 				(font
@@ -18174,7 +18680,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 191.77 123.19 180)
+		(at 181.61 95.25 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -18182,7 +18688,7 @@
 		(dnp yes)
 		(uuid "92976737-8cf0-4723-97e9-df67b6c6bc5a")
 		(property "Reference" "R5"
-			(at 195.326 124.714 0)
+			(at 185.166 96.774 0)
 			(effects
 				(font
 					(size 1 1)
@@ -18191,7 +18697,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 195.58 119.888 0)
+			(at 185.42 91.948 0)
 			(effects
 				(font
 					(size 1 1)
@@ -18200,7 +18706,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 191.77 123.19 0)
+			(at 181.61 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18209,7 +18715,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 123.19 0)
+			(at 181.61 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18218,7 +18724,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 191.77 123.19 0)
+			(at 181.61 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18227,7 +18733,7 @@
 			)
 		)
 		(property "ESP32" ""
-			(at 191.77 123.19 0)
+			(at 181.61 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18236,7 +18742,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 191.77 123.19 0)
+			(at 181.61 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18245,7 +18751,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 191.77 123.19 0)
+			(at 181.61 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18254,7 +18760,7 @@
 			)
 		)
 		(property "Rotation Offset" ""
-			(at 191.77 123.19 0)
+			(at 181.61 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18964,7 +19470,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 191.77 128.27 90)
+		(at 181.61 100.33 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -18972,7 +19478,7 @@
 		(dnp yes)
 		(uuid "a73d1ec6-5546-42e4-a9c1-90def732e2e6")
 		(property "Reference" "D3"
-			(at 195.326 127.762 90)
+			(at 185.166 99.822 90)
 			(effects
 				(font
 					(size 1 1)
@@ -18981,7 +19487,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 196.342 122.555 90)
+			(at 186.182 94.615 90)
 			(effects
 				(font
 					(size 1 1)
@@ -18991,7 +19497,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 191.77 128.27 90)
+			(at 181.61 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19000,7 +19506,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 128.27 90)
+			(at 181.61 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19009,7 +19515,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 191.77 128.27 0)
+			(at 181.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19018,7 +19524,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 191.77 128.27 0)
+			(at 181.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19027,7 +19533,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 191.77 128.27 90)
+			(at 181.61 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19036,7 +19542,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 191.77 128.27 90)
+			(at 181.61 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19045,7 +19551,7 @@
 			)
 		)
 		(property "Rotation Offset" ""
-			(at 191.77 128.27 90)
+			(at 181.61 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19627,6 +20133,138 @@
 			(project ""
 				(path "/c590fdf7-e627-4685-92cc-5515f465e75b"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 185.42 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b98a4ddd-b87e-4371-9ae3-f678f7af4dde")
+		(property "Reference" "TP9"
+			(at 186.69 135.382 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EN1"
+			(at 185.42 131.318 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EZCPAP:TestLoop_RCUCTE _0603"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 185.42 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89234000-878f-45f5-8538-adfbbe6169e9")
+		)
+		(instances
+			(project "EZCPAP"
+				(path "/c590fdf7-e627-4685-92cc-5515f465e75b"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 200.66 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba307957-9598-44aa-beb9-871f47119fb2")
+		(property "Reference" "TP6"
+			(at 201.93 135.382 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BEMF_V"
+			(at 200.66 131.318 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EZCPAP:TestLoop_RCUCTE _0603"
+			(at 205.74 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 200.66 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ae2282f-b0c1-422e-9eb9-afa015e0d772")
+		)
+		(instances
+			(project "EZCPAP"
+				(path "/c590fdf7-e627-4685-92cc-5515f465e75b"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -21897,6 +22535,72 @@
 			(project "EZCPAP"
 				(path "/c590fdf7-e627-4685-92cc-5515f465e75b"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 214.63 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1ddff45-c02b-42f5-831b-f586fac47908")
+		(property "Reference" "TP3"
+			(at 215.9 135.382 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NSLEEP"
+			(at 214.63 131.318 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EZCPAP:TestLoop_RCUCTE _0603"
+			(at 219.71 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 214.63 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e683fb74-dbf2-4373-9c53-4b4e1132fa95")
+		)
+		(instances
+			(project ""
+				(path "/c590fdf7-e627-4685-92cc-5515f465e75b"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
