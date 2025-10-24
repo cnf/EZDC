@@ -1140,6 +1140,7 @@
     "MY_AUTHOR": "Frank Rosquin",
     "MY_REVISION": "C",
     "MY_TITLE": "EZDriver for CPAP blower motor and other BLDCs",
-    "MY_URL": "github:cnf/EZDC"
+    "MY_URL": "github:cnf/EZDC",
+    "VENDOR_SERIAL": ""
   }
 }
