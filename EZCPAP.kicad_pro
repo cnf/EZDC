@@ -60,11 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|62087500|89012500|0c5112c8-d7c7-4bf2-a427-862c1eafdbd8|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|67560000|96890000|b58a0840-888f-459c-80c2-0dc4ae607770|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|69480000|87312500|48327fbb-7382-48ba-8575-36cd1f890eec|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|67650000|107447500|8e609488-1818-4267-9d98-c57f33f70cad|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -72,11 +72,15 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|71829608|90687500|d953ef07-097e-4255-be8a-73fc86ee920e|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|75375893|91810828|1ca55668-1502-404c-b19c-c01d3795aa76|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|75992500|88082500|922dc6ad-e28e-416e-bbd1-c890fdc61d24|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|76775000|112850000|cb87a187-5729-4b7f-9c67-bcee673bcddc|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|72000000|110920000|a87a9a5c-e0e4-447b-bdb3-2f9b144428a5|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -1110,7 +1114,7 @@
   "text_variables": {
     "BOARD_TITLE": "EZ/DC",
     "MY_AUTHOR": "Frank Rosquin",
-    "MY_REVISION": "B",
+    "MY_REVISION": "C",
     "MY_TITLE": "EZDriver for CPAP blower motor and other BLDCs",
     "MY_URL": "github:cnf/EZDC"
   }

@@ -67,15 +67,25 @@
 		(layer "F.CrtYd")
 		(uuid "a9923651-8e13-4472-8dab-9205b5227b2a")
 	)
+	(fp_text user "${VALUE}"
+		(at -0.008243 1.406418 0)
+		(layer "F.SilkS")
+		(uuid "70c0fc9b-0646-4d15-ac4b-330de78612fb")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 1.71 0)
-		(unlocked yes)
-		(layer "F.Fab")
+		(at 0 -0.83 0)
+		(layer "Cmts.User")
 		(uuid "e9464a79-c80e-4c7f-8239-c437b7251930")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.25 0.25)
+				(thickness 0.03125)
 			)
 		)
 	)

@@ -8652,7 +8652,7 @@
 		(uuid "68ac8235-2a17-4d0b-ae97-70c0ddd9619d")
 	)
 	(no_connect
-		(at 262.89 60.96)
+		(at 283.21 63.5)
 		(uuid "8484445e-a0a4-422d-92f1-c94c49201ada")
 	)
 	(no_connect
@@ -10337,7 +10337,7 @@
 	)
 	(global_label "LEDGREEN"
 		(shape output)
-		(at 262.89 66.04 0)
+		(at 262.89 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10347,7 +10347,7 @@
 		)
 		(uuid "35488e73-2b0e-4bd1-a38e-5560424da686")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.8118 66.04 0)
+			(at 272.8118 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10579,7 +10579,7 @@
 	)
 	(global_label "LEDBLUE"
 		(shape output)
-		(at 262.89 68.58 0)
+		(at 262.89 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10589,7 +10589,7 @@
 		)
 		(uuid "5b34048f-ed87-4e42-92a0-ffe14d810dc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.7165 68.58 0)
+			(at 271.7165 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10623,7 +10623,7 @@
 	)
 	(global_label "LEDRED"
 		(shape output)
-		(at 262.89 63.5 0)
+		(at 262.89 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10633,7 +10633,7 @@
 		)
 		(uuid "615953dc-4d93-44ce-8cac-5c136d2c615d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.8594 63.5 0)
+			(at 270.8594 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10777,22 +10777,22 @@
 	)
 	(global_label "RSENSE"
 		(shape input)
-		(at 217.17 58.42 180)
+		(at 262.89 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "774ba1f7-00ec-4478-8f03-3afd4b199d32")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.5618 58.42 0)
+			(at 270.4982 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -16403,7 +16403,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "594dd4a6-fd24-480b-8697-85cd55655c4d")
 		(property "Reference" "TP2"
 			(at 190.5 103.6319 0)
@@ -16415,13 +16414,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+"
-			(at 190.5 106.1719 0)
+		(property "Value" "D+"
+			(at 190.5 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "EZCPAP:TestLoop_RCUCTE _0603"
@@ -18356,7 +18354,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8a3272ab-647c-4f38-a975-07fa75fbfa21")
 		(property "Reference" "TP1"
 			(at 190.5 91.9479 0)
@@ -18368,13 +18365,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-"
-			(at 190.5 94.4879 0)
+		(property "Value" "D-"
+			(at 190.5 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "EZCPAP:TestLoop_RCUCTE _0603"
